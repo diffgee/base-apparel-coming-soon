@@ -1,0 +1,65 @@
+/* ## Colors
+
+### Primary
+
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+
+### Neutral
+
+- Dark Grayish Red: hsl(0, 6%, 24%)
+
+### Gradients
+
+- Linear, 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%)
+- Linear, 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+font-family: 'Josefin Sans', sans-serif; 300 400 600*/
+
+/* ---Global--- */
+:root {
+  --satred: hsl(0, 36%, 70%);
+  --softred: hsl(0, 93%, 68%);
+  --darkred: hsl(0, 6%, 24%);
+}
+
+html{
+	box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: var(--satred);
+}
+/* ---Layout--- */
+.wrapper {
+  display: flex;
+}
+
+.leftbox {
+  padding: 170px;
+}
+/* ---Headline--- */
+.annc {
+  display: block;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.htop {
+  font-weight: 300;
+  color: var(--satred);
+}
